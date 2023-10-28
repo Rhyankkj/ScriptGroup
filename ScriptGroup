@@ -1,1 +1,302 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
+local Window = OrionLib:MakeWindow({Name = "Script Group", HidePremium = false, IntroText = "Script Group", SaveConfig = true, ConfigFolder = "ScriptSquad"})
+
+local Tab = Window:MakeTab({
+	Name = "BLADE BALL",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Scripts"
+})
+
+Tab:AddButton({
+	Name = "BEDOL HUB BETA",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/3345-c-a-t-s-u-s/-beta-/main/AutoParry.lua"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "CATALYST",
+	Callback = function()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/c3e9589a7971b17dd4404e4523d0b081.lua"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "W-AZURE",
+	Callback = function()
+script_key = ""
+
+getgenv().Mode = "Idle" -- "Idle","Rage", "AI"
+getgenv().AIJumpState = true --Allow Ai To Jump
+getgenv().StopAutoParry = false
+getgenv().PingBased = true
+getgenv().ForceWin = false --100% Win Need  Telekenis, Premium Only
+getgenv().AutoUseSkill = false
+getgenv().BaseVelocity = 15 --Base On The Server, IDK Where To Get it It Should Be 4-6 Or 0 (Old Server)
+getgenv().BasePredictVelocity = 4 -- Should be From 3-3.5 Work Good With 3 If Old Server
+getgenv().VisualizePath = true -- false //
+getgenv().AutoSpamClickDetect = true -- Spam Click If Near Other Player
+getgenv().CloseRangeAttack = false -- Just Move Forward To The Last Character
+getgenv().AutoClickKeyBind = "X" -- Need The Ball To Be Stopped
+getgenv().AutoClickThreshold = 0.2
+getgenv().DistanceBall = 10
+getgenv().NoUi = false
+
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/fd07660d92cb26891e9acfab9f0c6ba4.lua"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "FUJI HUB",
+	Callback = function()
+loadstring(game:HttpGet("https://shz.al/~main/dread/Fuji-Hub/script"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "INFINIX",
+	Callback = function()
+loadstring(game:HttpGet("https://github.com/Hosvile/InfiniX/releases/download/1.0.0/main.lua",true))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "LN HUB V3",
+	Callback = function()
+loadstring(game:HttpGet("https://scriptblox.com/raw/Blade-Ball-Ln-Hub-V3-Updated-8220"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "SHADOW HUB",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/rhuanbed77/shadow-hub-paid/main/shadow%20hub%20blade%20ball%20v2%20X", true))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "NO GUI",
+	Callback = function()
+loadstring(game:HttpGet("https://scriptblox.com/raw/Blade-Ball-Auto-Parry-No-GUI-8556"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "NEXUS",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/s-o-a-b/nexus/main/loadstring"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "PROJECT NOVA",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Synergy-Networks/products/main/ProjectNova/loader.lua",true))()
+      		print("button pressed")
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "BLOX FRUIT",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "ZEN HUB",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ZenHubTheBest/Main/main/Loader", true))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "MTRIET HUB",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Minhtriettt/Free-Script/main/MTriet-Hub.lua"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "ADEL HUB",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AdelOnTheTop/Adel-Hub/main/Main.lua"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "SERA HUB",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LumosSera/SeraHub/main/aut.lua"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "RAITO HUB",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Efe0626/RaitoHub/main/Script"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "TSUO HUB",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Tsuo7/TsuoHub/main/Tsuoscripts"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "HOHO HUB",
+	Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "MARU HUB",
+	Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/joi-droid/MaruHubBF/main/GOHANSSJ3'))()
+    print("Clicked")
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "W-AZURE MAIN LITE",
+	Callback = function()
+getgenv().FixLag1 = false --Enable This Will Reduce Lag But Remove Silent Aim(Pvp,Mob)
+getgenv().FixLag2 = false -- Enable This Will Reduce Lag But Remove Speed Changer
+script_key = ""
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/b6b36cec473a0dd48eab35b8272b2384.lua"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "MAKURO HUB",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xQuartyx/DonateMe/main/OldBf"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "CRAZZY HUB",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/kmmwhocare/Crazzy-Hub/main/Crazzy%20Hub%20English"))()
+      		print("button pressed")
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Anime Champions",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+local Section = Tab:AddSection({
+	Name = "Scripts"
+})
+
+Tab:AddButton({
+	Name = "SKY HUB",
+	Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/SKOIXLL/RIVERHUB-SKYHUB/main/WL.lua'))();
+      		print("button pressed")
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "KING LEGACY",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Scripts"
+})
+
+Tab:AddButton({
+	Name = "NOOB HUB",
+	Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/SHAREHACK/script/main/kl'))()
+      		print("button pressed")
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "MM2",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Scripts"
+})
+
+Tab:AddButton({
+	Name = "LUNAR HUB",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/vwSaraa/LunarHub/main/mm2"))()
+      		print("button pressed")
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Configurações",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Configuração"
+})
+
+Tab:AddButton({
+	Name = "Fps Booster",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/FPSBooster.lua"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddToggle({
+	Name = "Bypass",
+	Default = false,
+	Callback = function(Value)
+game:GetService("ReplicatedStorage").Security.RemoteEvent:Destroy()
+game:GetService("ReplicatedStorage").Security[""]:Destroy()
+game:GetService("ReplicatedStorage").Security:Destroy()
+game:GetService("Players").LocalPlayer.PlayerScripts.Client.DeviceChecker:Destroy()
+wait(1)
+		print(Value)
+	end    
+})
+
+OrionLib:MakeNotification({
+	Name = "Script Group",
+	Content = "Sejam bem vindos ao Hub da Script Group",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
+OrionLib:Init()
