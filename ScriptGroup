@@ -941,3 +941,5 @@ Tab:AddButton({
 	toclipboard("https://discord.com/invite/2TWYyhSKzW")
   	end    
 })
+
+OrionLib:Init()
